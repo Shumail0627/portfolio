@@ -130,7 +130,20 @@ const testimonials = [
 	}
 ];
 
-const projects = [
+export type Project = {
+	name: string;
+	description: string;
+	tags: {
+		name: string;
+		color: string;
+	}[];
+	image: string;
+	source_code_link?: string;
+	deploy_link: string;
+	platform: "Netlify" | "Vercel" | "Figma" | "Wordpress" | "Web";
+};
+
+const projects: Project[] = [
 	{
 		name: "OutfitBySM eCommerce Store",
 		description: 
