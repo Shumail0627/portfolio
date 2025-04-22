@@ -155,7 +155,7 @@ const projects = [
 		],
 		image: "/projectimg/outfitbysm.png",
 		deploy_link: "https://outfitbysm.superteclabs.com",
-		platform: "Web"
+		platform: "Vercel"
 	},
 	{
 		name: "Paki.com Social Platform",
@@ -181,7 +181,7 @@ const projects = [
 		],
 		image: "/projectimg/paki.png",
 		deploy_link: "https://paki.com",
-		platform: "Web"
+		platform: "Vercel"
 	},
 	{
 		name: "Supertec Office Management System",
@@ -207,77 +207,121 @@ const projects = [
 		],
 		image: "/projectimg/supertec.png",
 		deploy_link: "https://superteclabs.com",
-		platform: "Web & Mobile"
+		platform: "Vercel"
 	},
 	{
-		name: "Rehan School Management System",
+		name: "Issue Tracker",
 		description:
-			"Developed a comprehensive School Management System with both web and mobile interfaces. Features include complete student management (attendance, fees, grades), teacher management, task tracking, user administration, and detailed reporting. The system streamlines administrative tasks, handles fee collection, manages attendance tracking, and provides real-time insights for school administrators.",
+			"A comprehensive issue tracking system built with the MERN stack. Features include: User authentication, Issue creation and management, Priority levels, Status tracking, Assignment capabilities, Comment system, and Search functionality. The system helps teams track and manage project issues efficiently.",
 		tags: [
 			{
-				name: "PHP",
+				name: "MongoDB",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "mobile-app",
+				name: "Express.js",
 				color: "green-text-gradient",
 			},
 			{
-				name: "management",
+				name: "React",
 				color: "pink-text-gradient",
 			},
 			{
-				name: "database",
+				name: "Node.js",
 				color: "orange-text-gradient",
 			}
 		],
-		image: "/projectimg/rehanschool.png",
-		deploy_link: "https://school.superteclabs.com",
-		platform: "Web & Mobile"
+		image: "/projectimg/issuetracker.png",
+		deploy_link: "https://issuetracker.vercel.app",
+		platform: "Vercel"
 	},
 	{
-		name: "Video Editor Portfolio",
+		name: "HooBank Modern Website",
 		description:
-			"Designed and developed a professional portfolio website for a video editor, showcasing their work and services in a visually appealing manner.",
+			"A modern and responsive banking website built with React and Tailwind CSS. Features include: Modern UI/UX design, Responsive layout, Interactive components, Smooth animations, and Performance optimization. The project demonstrates modern web development practices and design principles.",
 		tags: [
 			{
-				name: "react",
+				name: "React",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "responsive-design",
+				name: "Tailwind",
 				color: "green-text-gradient",
 			},
 			{
-				name: "portfolio",
+				name: "JavaScript",
 				color: "pink-text-gradient",
-			},
+			}
 		],
-		image: "/projectimg/portfolio.png",
-		deploy_link: "https://shumail.superteclabs.com",
-		platform: "Web"
+		image: "/projectimg/hoobank.webp",
+		deploy_link: "https://hoobank-modern.vercel.app",
+		platform: "Vercel"
 	},
 	{
-		name: "AgentB AI Chatbot",
+		name: "Metaverse Website",
 		description:
-			"Developed an advanced AI chatbot platform that provides intelligent conversational interactions. Implemented using cutting-edge AI technologies and modern web development practices.",
+			"An immersive metaverse website built with Next.js 13 and Framer Motion. Features include: Modern design, Smooth animations, Interactive UI elements, and Responsive layout. The project showcases advanced animation techniques and modern web development practices.",
 		tags: [
 			{
-				name: "ai",
+				name: "Next.js",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "chatbot",
+				name: "Framer Motion",
 				color: "green-text-gradient",
 			},
 			{
-				name: "machine-learning",
+				name: "Tailwind",
 				color: "pink-text-gradient",
-			},
+			}
 		],
-		image: "/projectimg/agentb.webp",
-		deploy_link: "https://agentb.net",
-		platform: "Web"
+		image: "/projectimg/metaverse.png",
+		deploy_link: "https://metaverse-modern.vercel.app",
+		platform: "Vercel"
+	},
+	{
+		name: "AVM Website",
+		description:
+			"A modern business website built with Next.js and Tailwind CSS. Features include: Responsive design, Contact forms, Service showcases, and Team member profiles. The project demonstrates clean code practices and modern web development techniques.",
+		tags: [
+			{
+				name: "Next.js",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Tailwind",
+				color: "green-text-gradient",
+			},
+			{
+				name: "TypeScript",
+				color: "pink-text-gradient",
+			}
+		],
+		image: "/projectimg/avm.webp",
+		deploy_link: "https://avm-website.vercel.app",
+		platform: "Vercel"
+	},
+	{
+		name: "SparkBright Website",
+		description:
+			"A dynamic business website built with Next.js and Tailwind CSS. Features include: Modern UI design, Responsive layout, Service showcases, and Contact integration. The project demonstrates professional web development practices.",
+		tags: [
+			{
+				name: "Next.js",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Tailwind",
+				color: "green-text-gradient",
+			},
+			{
+				name: "TypeScript",
+				color: "pink-text-gradient",
+			}
+		],
+		image: "/projectimg/sparkbright.png",
+		deploy_link: "https://sparkbright.vercel.app",
+		platform: "Vercel"
 	}
 ];
 
