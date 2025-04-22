@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  trailingSlash: true,
-  swcMinify: true
+  reactStrictMode: true,
+  images: {
+    domains: ['vercel.com'],
+    unoptimized: true
+  }
 };
 
 export default nextConfig;
